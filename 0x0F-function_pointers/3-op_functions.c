@@ -1,64 +1,52 @@
 #include "3-calc.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
-* op_add - returns the sum of two numbers
-* @a: the first number
-* @b: the second number
-*
-
-* return: the sum of a and b
-*/
-
+ * op_add - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
+ */
 int op_add(int a, int b)
 {
-        return (a + b);
+	return (a + b);
 }
-
 /**
-* op_sub - returns the difference of two numbers
-* @a: the first number
-* @b: the second number
-*
-* return: the difference of a and b
-*/
-
+ * op_sub - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
+ */
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
-* op_mul - returns the product of two numbers
-* @a: the first number
-* @b: the second number
-*
-* return: the product of a and b
-*/
+ * op_mul - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
+ */
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
-
 /**
-* op_div - returns the quotient of two numvers
-* @a: the first number
-* @b: the second number
-*
-* return: the quotient of a and b
-*/
+ * op_div - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
+ */
 int op_div(int a, int b)
 {
 	return (a / b);
 }
-
 /**
-*op_mod - returns the remainder of the division of two numbers
-* @a: the first number
-* @b: the second number
-*
-* return: the remainder of the division of a by b
-*/
-
+ * op_mod - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
+ */
 int op_mod(int a, int b)
 {
 	return (a % b);
