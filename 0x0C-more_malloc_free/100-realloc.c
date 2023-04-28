@@ -3,11 +3,12 @@
 #include <stdlib.h>
 
 /**
- * _memcpy - Copies memory area.
- * @dest: The memory area to be filled.
- * @n: Number of bytes to copy.
-*
- * Return: Pointer to the memory area dest.
+ * _memcpy - copies memory area.
+ * @dest: the memory area to be filled
+ * @src: the origin memery area
+ * @n: number of bytes to copy
+ *
+ * Return: a pointer to the memory area dest.
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -21,12 +22,12 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 }
 
 /**
- * _realloc - Reallocates a memory block.
- * @ptr: Pointer to the memory previously allocated.
- * @old_size: Old size of pointer.
- * @new_size: New size of pointer.
+ * _realloc - reallocates a memory block.
+ * @ptr: pointer to the memory previously allocated.
+ * @old_size: old size of pointer
+ * @new_size: new size of pointer
  *
- * Return: Void *
+ * Return: void *
  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
