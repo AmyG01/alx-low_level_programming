@@ -5,20 +5,20 @@
  * @head: Pointer to the first element in the linked list
  *
  * Return: The head node’s data (n).
- * 		   Otherwise 0 if the linked list is empty.
+ *	   Otherwise 0 if the linked list is empty.
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *temp;
-	int num;
+        listint_t *temp;
+        int num;
 
-	if (!head || !*head)
-		return (0);
+        if (!head || !*head)
+                return (0);
 
-	num = (*head)->n;
-	temp = (*head)->next;
-	free(*head);
-	*head = temp;
+        num = (*head)->n;
+        temp = (*head)->next;
+        free(*head);
+        *head = temp;
 
-	return (num);
+        return (num);
 }
